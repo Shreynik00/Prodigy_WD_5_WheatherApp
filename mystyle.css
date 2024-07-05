@@ -1,0 +1,132 @@
+#container {
+    background-color:rgb(36, 255, 182);
+    width: 70vh;
+    height: 85vh;
+    margin-left: 60vh;
+    margin-top: 10vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 25px solid #ddd;
+}
+
+body {
+    background-color:darkturquoise;
+    font-family: 'Arial', sans-serif; 
+   
+}
+
+.data {
+    width: 70vh;
+    height: 50vh;
+    font-family: 'Arial', sans-serif; 
+    color:blanchedalmond;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+
+#input {
+    margin-top: 7vh;
+    font-size: 19px;
+    left: 41%;
+    text-align: center;
+    transform: translate(-50%, -60%);
+    position: relative;
+    border-radius: 20px;
+    padding: 3px 2px;
+    width: 36vh;
+    height: 20px;
+    border: 2px solid #00796b; 
+    background-color: #ffffff; 
+    color: #00796b;
+}
+
+#button {
+    margin-top: 2vh;
+    font-size: 16px;
+    left: 28%;
+    transform: translate(-80%, -66%);
+    position: relative; 
+    border-radius: 20px;
+    width: 11vh;
+    height: 4vh;
+    background-color:#007779;
+    border: none; 
+    cursor: pointer; 
+    color:blanchedalmond;
+    text-shadow: 4px 4px 9px rgba(0, 0, 0, 0.5);
+}
+
+#button:hover {
+    background-color: #004d40; 
+    color:blanchedalmond;
+    border: none; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.Image {
+    left: 2%;
+    margin-top: -33vh;
+    border-radius: 50px;
+    width: 45vh;
+    height: 13vw;
+    padding: 9px ;
+   
+}
+
+.city {
+    font-size: 45px;
+    left: 35%;
+    transform: translate(-80%, -150%);
+    position: relative;
+    margin-top: 17vh;
+    color:blanchedalmond;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.temp {
+    font-size: 100px;
+    left: 30%;
+    transform: translate(-20%, -100%);
+    position: relative;
+    margin-top: 120vh;
+    color:blanchedalmond;
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+.wheather {
+    font-size: 35px;
+    align-self: baseline;
+    bottom: 10vh;
+    margin-left: 12vh;
+    color:blanchedalmond;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.Icon {
+    border-radius: 50px;
+    margin-left: 6vh;
+    height: 12vw;   
+    background-color: #e0f7fa; 
+}
+
+.humidity {
+    margin-left: 6vh;
+    font-size: 35px;
+    color:blanchedalmond;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.speed {
+    font-size: 30px;
+    margin-top: 7vh;
+    margin-left: 2vh;
+    color:blanchedalmond;
+    text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.5);
+}
+
+.rigth {
+    height: 13vh;
+    width: 23vh;
+    margin-left: 43vh;
+    margin-top: -21%;
+}
+
