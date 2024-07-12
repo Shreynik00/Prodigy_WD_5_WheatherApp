@@ -129,4 +129,84 @@ body {
     margin-left: 43vh;
     margin-top: -21%;
 }
+@media (max-width: 1024px) {
+    #container {
+        width: 80vw;
+        height: auto;
+        margin: 5vh auto;
+        border-width: 15px;
+    }
+    .data {
+        width: 80vw;
+        height: auto;
+    }
+    #input {
+        width: 80%;
+        font-size: 4vw;
+    }
+    #button {
+        width: 40%;
+        font-size: 4vw;
+    }
+    .Image {
+        width: 80vw;
+        height: auto;
+        margin: 2vh auto;
+    }
+    .city, .temp, .wheather, .humidity, .speed {
+        font-size: 6vw;
+        text-align: center;
+        margin: 2vh auto;
+    }
+    .Icon {
+        width: 80vw;
+        height: auto;
+        margin: 2vh auto;
+    }
+    .rigth {
+        width: 80vw;
+        height: auto;
+        margin: 2vh auto;
+    }
+}
 
+@media (max-width: 768px) {
+    #container {
+        width: 90vw;
+        height: auto;
+        margin: 5vh auto;
+        border-width: 10px;
+    }
+    .data {
+        width: 90vw;
+        height: auto;
+    }
+    #input {
+        width: 90%;
+        font-size: 5vw;
+    }
+    #button {
+        width: 50%;
+        font-size: 5vw;
+    }
+    .Image {
+        width: 90vw;
+        height: auto;
+        margin: 2vh auto;
+    }
+    .city, .temp, .wheather, .humidity, .speed {
+        font-size: 7vw;
+        text-align: center;
+        margin: 2vh auto;
+    }
+    .Icon {
+        width: 90vw;
+        height: auto;
+        margin: 2vh auto;
+    }
+    .rigth {
+        width: 90vw;
+        height: auto;
+        margin: 2vh auto;
+    }
+}
